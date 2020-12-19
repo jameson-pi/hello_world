@@ -2,8 +2,9 @@ aliens = 0
 passward = "ALIENS"
 while aliens < 7200000 {
   print()
-  print("WELCOME TO THE GLOBAL DEVENCE PLATFOLM")
+  print("WELCOME TO THE GLOBAL DEVENCE PLATFORM")
   print()
+  print("Aliens are invading")
   guiss = input("passward")
   if guiss!=passward{
     aliens ** 2
@@ -15,4 +16,4 @@ while aliens < 7200000 {
     print("thank you, all is saved")
 if aliens > 7200000 
   print("no!!! all is lost")
-  brack
+  break
