@@ -1,19 +1,20 @@
-aliens = 0
+aliens = 2
 passward = "ALIENS"
-while aliens < 7200000 {
-  print()
-  print("WELCOME TO THE GLOBAL DEVENCE PLATFORM")
-  print()
-  print("Aliens are invading")
-  guiss = input("passward")
-  if guiss!=passward{
-    aliens ** 2
-    print("Incorrect passward.")
+
+print()
+print("WELCOME TO THE GLOBAL DEVENCE PLATFORM")
+print()
+print("Aliens are invading")
+guiss = input("passward ")
+while aliens < 7200000:
+  if guiss.upper()!=passward:
+    aliens = aliens ** 2 * 3 // 4
+    print(f"Incorrect passward. there are { aliens } aliens")
     print("please try again")
     print("HINT: what are attaching us")
-    guiss = input("try again")
-  else
+    guiss = input("try again ")
+  else:
     print("thank you, all is saved")
-if aliens > 7200000 
+    break
+if aliens > 7200000:
   print("no!!! all is lost")
-  break
